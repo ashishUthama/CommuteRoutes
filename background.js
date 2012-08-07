@@ -20,8 +20,6 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 
  //Departure time (next weekday)
 
-
-
  //Build google maps route url
  routeURL = "https://maps.google.com/maps?"
    + "saddr=" + srcADDR
@@ -39,11 +37,8 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 
    chrome.tabs.create(
     {"url": routeURL}
-  );
-   
-   
-   
-   
+  ); 
+         
   });
 
 
